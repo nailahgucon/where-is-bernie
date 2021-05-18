@@ -1,0 +1,39 @@
+body {
+    font-family: "Monaco", Monospace;
+    background-color: #333D79FF;
+    color: #FAEBEFFF;
+    text-align: center;
+}
+
+#container {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+    width: 1200px;
+    overflow: hidden;
+    align-self: center;
+    margin:auto;
+	display:block;
+}
+
+img {
+    transform-origin: center center;
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+}
+
+#revealbtn, #revealbtn:hover{
+    background-color: rgb(104, 115, 177);
+    color: #FAEBEFFF;
+    border-color: #1b2021;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px;
+    margin-top: 15px;
+}
+#revealbtn:hover{
+    background-color: rgb(84, 92, 141);
+}
+
+p{
+    font-size: 2em;
+}
